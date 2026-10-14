@@ -28,3 +28,36 @@ in Termux on Android.
 
 ```bash
 pkg update && pkg upgrade -y
+```
+## Install Required Packages
+```
+pkg install curl git nano -y
+```
+## Install Antigravity CLI
+```
+curl -fsSL https://antigravity.google/cli/install.sh | bash
+```
+## Configure PATH
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+## Check Installation
+```
+agy --version
+```
+## Start Antigravity
+```
+agy
+```
+## Login
+1.Select Google OAuth.
+2.Press Enter.
+3.Open the authentication link in your 4.browser.
+5.Sign in with your Google account.
+6.Complete any required verification.
+## Eligibility Error
+If you see:
+Your current account is not eligible for Antigravity
+Try the following:
+Verify your Google account in the browser.
+Check whether your account is eligible for Antigravity.
+Try another eligible personal Google account if necessary.
+Successful installation does not guarantee account eligibility.
