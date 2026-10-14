@@ -25,11 +25,11 @@ in Termux on Android.
 ##  Update Termux
 
 ```bash
-pkg update && pkg upgrade -y
+apt update && apt upgrade -y
 ```
 ## Install Required Packages
 ```
-pkg install curl git nano -y
+apt install curl git nano -y
 ```
 ## Install Antigravity CLI
 ```
