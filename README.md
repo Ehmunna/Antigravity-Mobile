@@ -6,37 +6,25 @@
   <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge">
 </p>
 
+## 🚀 Google Antigravity CLI Installation Guide
+
+**Install Antigravity CLI on Termux | EH MUNNA**
+
+---
+
 ## 📌 About
 
-**EH GitHub Reporter** is a Python-based tool designed to help users
-collect repository information and prepare reports about GitHub
-repositories.
-
-The project is intended for educational purposes and responsible
-use of GitHub.
-
-## ✨ Features
-
-- 🔎 Repository information lookup
-- 📊 Repository statistics
-- 🐛 Bug report template generation
-- 📝 Report generation
-- 📱 Termux support
-- 💻 Linux support
-- 🎨 Simple and user-friendly interface
+This guide explains how to install and run Google Antigravity CLI
+in Termux on Android.
 
 ## 📋 Requirements
 
-- Python 3
-- Git
-- Termux or Linux
+- Android phone
+- Termux
 - Internet connection
+- Personal Google account eligible to use Antigravity
 
-## 📥 Installation
-
-### 1. Update packages
+## 1️⃣ Update Termux
 
 ```bash
 pkg update && pkg upgrade -y
-pkg install python git -y
-
