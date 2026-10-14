@@ -36,7 +36,9 @@ apt install curl git nano -y
 curl -fsSL https://antigravity.google/cli/install.sh | bash
 ```
 ## Configure PATH
+```
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+```
 ## Check Installation
 ```
 agy --version
